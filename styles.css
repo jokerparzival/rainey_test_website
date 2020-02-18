@@ -1,0 +1,175 @@
+p {
+	color: red;
+	margin-left: 100px;
+}
+
+ol{
+	list-style-type: upper-alpha;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: blue;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: crimson;
+}
+table {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	width: 75%;
+	border-collapse: collapse;
+}
+
+td, th {
+	border: 2px solid blue;
+	padding: 4px;
+}
+
+tr:nth-child(even){background-color: blue;}
+tr:nth-child(odd){background-color: lightblue} 
+tr {
+	color: white;
+}
+
+th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: crimson;
+	color: cyan;
+}
+
+input[type=text] {
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0px;
+	display: inline-block;
+	border: 3px solid blue;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+html{
+	background-color: lightblue;
+}
+
+
+
+div{
+	background-color: white;
+}
+
+h2{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+	align-content: stretch
+}
+
+img {
+	height: 400px;
+}
+
+h3{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	background-color: red;
+}
+
+.YU{
+	background-color: blue;
+}
+
+.YOSUKE{
+	background-color: green;
+}
+
+.CHIE{
+	background-color: yellow;
+}
+
+.TEDDIE{
+	background-color: purple;
+}
+
+h1{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container2{
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+}
+
+.flex-1{
+	background-color: blue;
+	flex-grow: 3;
+}
+
+.flex-2{
+	background-color: red;
+	flex-grow: 2;
+}
+
+.flex-3{
+	background-color: lightgreen;
+	flex-grow: 3;
+}
+
+.flex-4{
+	background-color: purple;
+	flex-grow: 4;
+}
+
+.flex-item{
+	border: 3px solid red;
+	line-height: 200px;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	font-family: Arial;
+}
+
+body{
+	background-color: rgb(137, 197, 224)
+}
+
+audio{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+video{
+	padding-top: 25px;
+}
+
+ul{
+	align-content: center;
+}
